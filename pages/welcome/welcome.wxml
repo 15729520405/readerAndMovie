@@ -1,0 +1,7 @@
+<view class="container">
+  <image src="/images/avatar/1.png"></image>
+  <text class="user-name">嗨，季显靖</text>
+  <view class="bt-box" bindtap="onTap">
+    <text class="bt-text" catchtap="onTextTap">开启小程序之旅</text>
+  </view>
+</view>

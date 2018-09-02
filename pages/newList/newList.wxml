@@ -1,0 +1,15 @@
+<swiper autoplay="true" interval="5000" circular="true" indicator-dots="true" indicator-active-color="rgba(255,255,255,1)">
+  <swiper-item>
+    <image src="/images/swiper/iqiyi.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/swiper/vr.png'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/swiper/wx.png'></image>
+  </swiper-item>
+</swiper>
+<article-list catchgetChildTap="getChildTap" newList="{{newList}}"></article-list>
+<!-- <import src="newList-item/newList-item.wxml" />
+<template is="newListItem" data="{{newList}}" /> -->
+  

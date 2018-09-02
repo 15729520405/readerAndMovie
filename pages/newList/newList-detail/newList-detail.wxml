@@ -1,0 +1,19 @@
+<view class="container">
+  <image class="headMap" src="{{newListItem.headImgSrc}}"></image>
+  <image class="audio"src="/images/music/music-start.png"></image>
+  <view class="author-info">
+    <image class="author-headPortrait" src="{{newListItem.avatar}}"></image>
+    <text class="author-name">{{newListItem.author}}</text>
+    <text class="author-by">发表于</text>
+    <text class="author-time">{{newListItem.dataTime}}</text>
+  </view>
+  <text class="title">{{newListItem.title}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image src="/images/icon/collection.png"></image>
+      <image src="/images/icon/collection.png"></image>
+    </view>
+    <view class="line"></view>
+  </view>
+  <text class="detail">{{newListItem.detail}}</text>
+</view>

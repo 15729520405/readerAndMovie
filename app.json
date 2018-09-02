@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/newList/newList",
+    "pages/newList/newList-detail/newList-detail"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#405f80"
+  }
+}

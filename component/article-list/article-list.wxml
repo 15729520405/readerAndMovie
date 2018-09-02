@@ -1,0 +1,19 @@
+<!--component/article-list/article-list.wxml-->
+<article-list>
+  <view wx:for="{{newList}}" wx:for-item="item" wx:key="{{index}}" class="newList-container">
+    <view class="newList-author-info">
+      <image src="{{item.avatar}}"></image>
+      <text>{{item.date}}</text>
+    </view>
+    <text class="newList-title">{{item.title}}</text>
+    <image class="newList-bg" src="{{item.imgSrc}}" catchtap="getPostId" data-postId="{{item.postId}}"></image>
+    <text class="newList-desc">{{item.content}}
+  </text>
+    <view class="newList-like">
+      <image class="newList-like-img" src="/images/icon/chat.png"></image>
+      <text class="newList-like-font">{{item.reading}}</text>
+      <image class="newList-like-img" src="/images/icon/view.png"></image>
+      <text class="newList-like-font">{{item.collection}}</text>
+    </view>
+  </view>
+  </article-list>
